@@ -1,9 +1,11 @@
 package cmd
 
 import (
-	"github.com/kekek/data_path"
+	"fmt"
+	"github.com/kekek/data_path/testdata"
 )
 
 func main() {
-	testdata.Path("ca.pem")
+	l  := testdata.Path("ca.pem")
+	fmt.Println(l)
 }

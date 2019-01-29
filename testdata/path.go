@@ -1,8 +1,8 @@
 package testdata
 
 import (
-"path/filepath"
-"runtime"
+	"path/filepath"
+	"runtime"
 )
 
 // basepath is the root directory of this package.
